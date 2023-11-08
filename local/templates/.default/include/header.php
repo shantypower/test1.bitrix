@@ -107,7 +107,7 @@ IncludeTemplateLangFile(__FILE__);
                 <div class="content">
                     <div class="cnt">
                         <header>
-                            <h1><?$APPLICATION->ShowTitle()?></h1>
+                            <h1><?$APPLICATION->ShowTitle(false)?></h1>
                         </header>
 <?else:?>
        <!-- page -->
