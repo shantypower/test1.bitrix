@@ -53,19 +53,19 @@ $this->setFrameMode(true);
 			<img src="<?=SITE_TEMPLATE_PATH?>/img/no_photo.jpg" alt="img">
 		<?endif?>
 		</div>
-		<?if($arResult["PROPERTIES"]["DOCUMENTS"]["VALUE"]):?>
-		<div class="exam-review-doc">
-			<p><?=$arResult["PROPERTIES"]["DOCUMENTS"]["NAME"]?>:</p>
-			<?foreach ($arResult["PROPERTIES"]['DOCUMENTS']['VALUE'] as $pid => $arProperty):?>
-				<?$arFile = CFile::GetFileArray($arProperty);?>
-			<div  class="exam-review-item-doc">
-				<img class="rew-doc-ico" src="<?=SITE_TEMPLATE_PATH?>/img/icons/pdf_ico_40.png"><a target="blank" href="<?=$arFile["SRC"]?>"><?=$arFile["ORIGINAL_NAME"]?></a>
-			</div>
-			<?endforeach?>
-		</div>
-		<?endif?>
-		<hr>
 </div>
+<?if($arResult["PROPERTIES"]["DOCUMENTS"]["VALUE"]):?>
+	<div class="exam-review-doc">
+		<p><?=$arResult["PROPERTIES"]["DOCUMENTS"]["NAME"]?>:</p>
+		<?foreach ($arResult["PROPERTIES"]['DOCUMENTS']['VALUE'] as $pid => $arProperty):?>
+			<?$arFile = CFile::GetFileArray($arProperty);?>
+		<div  class="exam-review-item-doc">
+			<img class="rew-doc-ico" src="<?=SITE_TEMPLATE_PATH?>/img/icons/pdf_ico_40.png"><a target="blank" href="<?=$arFile["SRC"]?>"><?=$arFile["ORIGINAL_NAME"]?></a>
+		</div>
+		<?endforeach?>
+	</div>
+<?endif?>
+<hr>
 
 
 
