@@ -21,9 +21,9 @@ Loc::loadMessages(__FILE__);
                         <div class="item-wrap">
                             <!-- side action -->
                             <div class="side-block side-action">
-                                <img src="./img/side-action-bg.jpg" alt="" class="bg">
+                                <img src="<?=SITE_TEMPLATE_PATH?>/img/side-action-bg.jpg" alt="" class="bg">
                                 <div class="photo-block">
-                                    <img src="./img/side-action.jpg" alt="">
+                                    <img src="<?=SITE_TEMPLATE_PATH?>/img/side-action.jpg" alt="">
                                 </div>
                                 <div class="text-block">
                                     <div class="title">Акция!</div>
@@ -43,7 +43,7 @@ Loc::loadMessages(__FILE__);
 										<div class="inner-block">
 											<div class="title">
 												<div class="photo-block">
-													<img src="./img/side-opin.jpg" alt="">
+													<img src="<?=SITE_TEMPLATE_PATH?>/img/side-opin.jpg" alt="">
 												</div>
 												<div class="name-block"><a href="">Дмитрий Иванов</a></div>
 												<div class="pos-block">Генеральный директор,"Офис+"</div>
@@ -58,7 +58,7 @@ Loc::loadMessages(__FILE__);
 										<div class="inner-block">
 											<div class="title">
 												<div class="photo-block">
-													<img src="./img/side-opin.jpg" alt="">
+													<img src="<?=SITE_TEMPLATE_PATH?>/img/side-opin.jpg" alt="">
 												</div>
 												<div class="name-block"><a href="">Дмитрий Иванов</a></div>
 												<div class="pos-block">Генеральный директор,"Офис+"</div>
@@ -132,16 +132,16 @@ Loc::loadMessages(__FILE__);
                 </div>
                 <div class="main-soc-block">
                     <a href="" class="soc-item">
-                        <img src="./img/icons/soc01.png" alt="">
+                        <img src="<?=SITE_TEMPLATE_PATH?>/img/icons/soc01.png" alt="">
                     </a>
                     <a href="" class="soc-item">
-                        <img src="./img/icons/soc02.png" alt="">
+                        <img src="<?=SITE_TEMPLATE_PATH?>/img/icons/soc02.png" alt="">
                     </a>
                     <a href="" class="soc-item">
-                        <img src="./img/icons/soc03.png" alt="">
+                        <img src="<?=SITE_TEMPLATE_PATH?>/img/icons/soc03.png" alt="">
                     </a>
                     <a href="" class="soc-item">
-                        <img src="./img/icons/soc04.png" alt="">
+                        <img src="<?=SITE_TEMPLATE_PATH?>/img/icons/soc04.png" alt="">
                     </a>
                 </div>
                 <div class="copy-block">© 2000 - 2012 "Мебельный магазин"</div>
