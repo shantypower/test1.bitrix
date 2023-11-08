@@ -23,6 +23,7 @@ webstat
 /*.xml
 /*.yml
 /*.csv
+.ssh
 
 .idea
 Thumbs.db
