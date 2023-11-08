@@ -44,7 +44,7 @@ sitemap_iblock_*.xml
 .top.menu.php
 .sitemap.menu.php
 .sitemap.menu_ext.php
-
+/.ssh
 favicon.ico
 
 /_test

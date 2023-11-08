@@ -8,12 +8,8 @@ IncludeTemplateLangFile(__FILE__);
 <head>
     <? $APPLICATION->ShowHead(); ?>
     <title><? $APPLICATION->ShowTitle(); ?></title>
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta charset="utf-8" />
-    <meta name="keywords" content="">
-    <meta name="description" content="">
-    <meta name="author" content="">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<?use Bitrix\Main\Page\Asset;
 	Asset::getInstance()->addCss("/local/templates/.default/css/reset.css");
 	Asset::getInstance()->addCss("/local/templates/.default/css/style.css");
@@ -190,7 +186,7 @@ IncludeTemplateLangFile(__FILE__);
 		                                        <br>
 		                                        <div class="inner-block">
 		                                            <a href="" class="photo-block">
-		                                                <img src="./img/new01.jpg" alt="">
+		                                                <img src="<?=SITE_TEMPLATE_PATH?>/img/new01.jpg" alt="">
 		                                            </a>
 		                                            <div class="text"><a href="">Угловой диван "Титаник",  с большим выбором расцветок и фактур.</a>
 		                                            <a href="" class="btn-arr"></a>
@@ -206,7 +202,7 @@ IncludeTemplateLangFile(__FILE__);
 		                                        <br>
 		                                        <div class="inner-block">
 		                                            <a href="" class="photo-block">
-		                                                <img src="./img/new02.jpg" alt="">
+		                                                <img src="<?=SITE_TEMPLATE_PATH?>/img/new02.jpg" alt="">
 		                                            </a>
 		                                            <div class="text"><a href="">Угловой диван "Титаник",  с большим выбором расцветок и фактур.</a>
 		                                            <a href="" class="btn-arr"></a>
@@ -222,7 +218,7 @@ IncludeTemplateLangFile(__FILE__);
 		                                        <br>
 		                                        <div class="inner-block">
 		                                            <a href="" class="photo-block">
-		                                                <img src="./img/new03.jpg" alt="">
+		                                                <img src="<?=SITE_TEMPLATE_PATH?>/img/new03.jpg" alt="">
 		                                            </a>
 		                                            <div class="text"><a href="">Угловой диван "Титаник",  с большим выбором расцветок и фактур.</a>
 		                                            <a href="" class="btn-arr"></a>
